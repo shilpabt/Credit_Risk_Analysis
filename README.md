@@ -98,6 +98,19 @@ F1 score: avg/total is 0.96, but it is good at predicting Low risk loan classes.
 
 ## Summary
 
+One way of validating model's performance: its accuracy score. The accuracy score is a quick indicator of how accurate each of the models was at predicting the loan status.
+
+Naive Random Oversampling : Accuracy Score is 65.40%  
+SMOTE Oversampling : Accuracy Score is 63.69%  
+Cluster Centroids (Undersampling) : Accuracy Score is 63.69% 
+Combination (Over and Under) Sampling : Accuracy Score is 63.69%  
+Balanced Random Forest Classifier: Accuracy Score is 78.44% 
+Easy Ensemble Classifier: Accuracy Score is 92.43%
+
+Precision, also known as positive predictive value (PPV). Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP).
+Compared to all other models, Easy Ensemble classifier is better in identifying high risk loans category that is of 7%.
+
+
 Based on the analysis results, I recommend Easy Ensemble classifier Model over all other models. It appears that the *Easy Ensemble Classifier model* has the best balance out of all other models on the given dataset because of it's high accuracy score(92.43%), a good balance of precision and recall scores.
 
 
