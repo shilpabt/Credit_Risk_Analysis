@@ -102,9 +102,9 @@ One way of validating model's performance: its accuracy score. The accuracy scor
 
 Naive Random Oversampling : Accuracy Score is 65.40%  
 SMOTE Oversampling : Accuracy Score is 63.69%  
-Cluster Centroids (Undersampling) : Accuracy Score is 63.69% 
-Combination (Over and Under) Sampling : Accuracy Score is 63.69%  
-Balanced Random Forest Classifier: Accuracy Score is 78.44% 
+Cluster Centroids (Undersampling) : Accuracy Score is 63.69%   
+Combination (Over and Under) Sampling : Accuracy Score is 63.69%    
+Balanced Random Forest Classifier: Accuracy Score is 78.44%   
 Easy Ensemble Classifier: Accuracy Score is 92.43%
 
 Precision, also known as positive predictive value (PPV). Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP).
